@@ -1,0 +1,21 @@
+{
+    "model_name": "gemma3:1b",
+    "runtime": "ollama",
+    "api_url": "http://localhost:11434/api/generate",
+    "temperature": 0,
+    "max_new_tokens": 220,
+    "stream": false,
+    "timeout": 180,
+    "evaluation_question_count": 10,
+    "prompt_version": "optimized_v1",
+    "prompt_instructions": [
+        "You are an educational assistant.",
+        "Answer in simple English.",
+        "Answer the exact question directly.",
+        "Use 3 to 5 concise sentences.",
+        "Include all essential technical points.",
+        "Give a relevant example when requested.",
+        "Avoid unnecessary introductions and repetition.",
+        "Do not stop before completing the explanation."
+    ]
+}

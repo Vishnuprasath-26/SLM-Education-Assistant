@@ -1,0 +1,11 @@
+{
+    "baseline_response_time_seconds": 14.342,
+    "optimized_response_time_seconds": 10.21,
+    "response_time_improvement_percent": 28.81,
+    "baseline_tokens_per_second": 18.09,
+    "optimized_tokens_per_second": 19.53,
+    "generation_speed_improvement_percent": 7.96,
+    "baseline_average_tokens": 169.5,
+    "optimized_average_tokens": 119.9,
+    "quality_evaluation_required": true
+}

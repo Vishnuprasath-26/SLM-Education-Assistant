@@ -1,0 +1,13 @@
+{
+    "model_name": "gemma3:1b",
+    "prompt_version": "optimized_v1",
+    "total_questions": 10,
+    "average_response_time_seconds": 10.21,
+    "minimum_response_time_seconds": 8.519,
+    "maximum_response_time_seconds": 11.799,
+    "average_generation_time_seconds": 6.151,
+    "average_generated_tokens": 119.9,
+    "total_generated_tokens": 1199,
+    "average_tokens_per_second": 19.53,
+    "overall_tokens_per_second": 19.49
+}

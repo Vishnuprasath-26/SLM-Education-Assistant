@@ -1,0 +1,24 @@
+
+# Deep Learning
+torch
+
+# SLM Model Loading and Fine-tuning
+transformers
+datasets
+peft
+accelerate
+
+# Data Processing
+pandas
+numpy
+scikit-learn
+
+# Backend API
+fastapi
+uvicorn[standard]
+pydantic
+requests
+
+# Testing
+pytest
+httpx

@@ -1,0 +1,43 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Testing and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model files and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Experiment outputs
+experiments/logs/
+experiments/checkpoints/
+
+# IDE settings
+.vscode/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Generated application logs
+logs/*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

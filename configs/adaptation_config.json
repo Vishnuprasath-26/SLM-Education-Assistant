@@ -1,0 +1,38 @@
+
+
+{
+    "model_name": "google/gemma-3-1b-it",
+    "runtime": "proposed_training_configuration",
+    "adaptation_method": "LoRA",
+    "training_executed": false,
+    "lora": {
+        "rank": 8,
+        "alpha": 16,
+        "dropout": 0.05,
+        "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+        ]
+    },
+    "training": {
+        "learning_rate": 0.0002,
+        "epochs": 3,
+        "batch_size": 1,
+        "gradient_accumulation_steps": 8,
+        "max_sequence_length": 512
+    },
+    "dataset": {
+        "train": "data/adaptation/sft_train.jsonl",
+        "validation": "data/adaptation/sft_validation.jsonl",
+        "test": "data/adaptation/sft_test.jsonl"
+    },
+    "hardware": {
+        "total_ram_gb": 7.68,
+        "available_ram_gb_at_assessment": 1.56,
+        "cuda_available": false,
+        "gpu": "Intel UHD integrated graphics"
+    },
+    "execution_status": "Not executed due to hardware limitations"
+}
